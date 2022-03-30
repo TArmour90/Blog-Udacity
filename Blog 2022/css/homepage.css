@@ -1,0 +1,65 @@
+@import "nav_bar.css";
+@import "blog.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    min-width: fit-content;
+    height: 590px;
+    background-color: black;
+    color:white;
+    margin: 0;
+    width:100%;
+}
+
+.homepage {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    display: grid;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+}
+    a:visited {
+text-decoration:none;
+color:white;
+}
+
+ul {
+list-style:none;
+}
+.wideimage {
+width: 100%;
+}
+
+@media screen and (min-width: 350px) {
+    .container {
+        width: 45%;
+        margin: 2%;
+    }
+}
+
+
+
+      
+
+
+
